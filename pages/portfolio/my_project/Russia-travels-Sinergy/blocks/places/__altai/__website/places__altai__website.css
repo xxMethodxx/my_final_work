@@ -1,0 +1,6 @@
+.places__altai__website {
+    width: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

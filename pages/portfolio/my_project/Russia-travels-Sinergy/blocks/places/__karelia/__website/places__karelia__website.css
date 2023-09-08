@@ -1,0 +1,5 @@
+.places__karelia__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

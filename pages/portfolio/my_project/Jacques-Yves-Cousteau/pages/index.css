@@ -1,0 +1,38 @@
+@import url('../styles/styles.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__line/header__line.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__title/form__title.css');
+@import url('../blocks/form/__field-1/form__field-1.css');
+@import url('../blocks/form/__field-2/form__field-2.css');
+@import url('../blocks/form/__submit-button/form__submit-button.css');
+
+@import url('../blocks/form/__close-btn/form__close-btn.css');
+
+@import url('../blocks/profile/profile.css');
+@import url('../blocks/profile/__avatar/profile__avatar.css');
+@import url('../blocks/profile/__info/profile__info.css');
+@import url('../blocks/profile/__info/__name/profile__info__name.css');
+@import url('../blocks/profile/__info/__profession/profile__info__profession.css');
+@import url('../blocks/profile/__info/__button/profile__info__button.css');
+@import url('../blocks/profile/__button/profile__button.css');
+
+@import url('../blocks/elements/elements.css');
+@import url('../blocks/elements/__karachaevsk/elements__karachaevsk.css');
+@import url('../blocks/elements/__karachaevsk/__list/elements__karachaevsk__list.css');
+@import url('../blocks/elements/__karachaevsk/__image/elements__karachaevsk__image.css');
+
+@import url('../blocks/elements/__dombay/elements__dombay.css');
+@import url('../blocks/elements/__dombay/__list/elements__dombay__list.css');
+@import url('../blocks/elements/__dombay/__image/elements__dombay__image.css');
+
+@import url('../blocks/elements/__elbrus/elements__elbrus.css');
+@import url('../blocks/elements/__elbrus/__list/elements__elbrus__list.css');
+@import url('../blocks/elements/__elbrus/__image/elements__elbrus__image.css');
+
+@import url('../blocks/elements/__like/elements__like.css'); 
+
+@import url('../blocks/footer/footer.css');

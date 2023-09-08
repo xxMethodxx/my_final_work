@@ -1,0 +1,19 @@
+.intro__list {
+    width: 690px;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    font-weight: 700;
+    margin-top: 33px;
+    position: relative;
+}
+
+.__number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}

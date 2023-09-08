@@ -1,0 +1,84 @@
+@import url('../styles/style.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__lang/header__lang.css');
+@import url('../blocks/header/__lang/__RU/header__lang__RU.css');
+@import url('../blocks/header/__lang/__EN/header__lang__EN.css');
+
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead_caption.css');
+
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__list/intro__list.css');
+
+@import url('../blocks/photo-grid/photo-grid.css');
+
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__scythe/places__scythe.css');
+@import url('../blocks/places/__scythe/__title/places__scythe__title.css');
+@import url('../blocks/places/__scythe/__website/places__scythe__website.css');
+@import url('../blocks/places/__scythe/__website/URL/places__scythe__website__URL.css');
+@import url('../blocks/places/__scythe/__website/link/places__scythe__website__link.css');
+@import url('../blocks/places/__scythe/__image/places__scythe__image.css');
+@import url('../blocks/places/__scythe/__text/places__scythe__text.css');
+@import url('../blocks/places/__scythe/__text/__par-1/places__scythe__text__par-1.css');
+@import url('../blocks/places/__scythe//__text/__par-2/places__scythe__text__par-2.css');
+
+@import url('../blocks/places/__kola/places__kola.css');
+@import url('../blocks/places/__kola/__title/places__kola__title.css');
+@import url('../blocks/places/__kola/__website/places__kola__website.css');
+@import url('../blocks/places/__kola/__website/__URL/places__kola__website__URL.css');
+@import url('../blocks/places/__kola/__website/__link/places__kola__website__link.css');
+@import url('../blocks/places/__kola/__image/places__kola__image.css');
+@import url('../blocks/places/__kola/__text/places__kola__text.css');
+@import url('../blocks/places/__kola/__text/__par-1/places__kola__text__par-1.css');
+@import url('../blocks/places/__kola/__text/__par-2/places__kola__text__par-2.css');
+
+@import url('../blocks/places/__altai/places__altai.css');
+@import url('../blocks/places/__altai/__title/places__altai__title.css');
+@import url('../blocks/places/__altai/__website/places__altai__website.css');
+@import url('../blocks/places/__altai/__website/__link/places__altai__website__link.css');
+@import url('../blocks/places/__altai/__website/__URL/places__altai__website__URL.css');
+@import url('../blocks/places/__altai/__image/places__altai__image.css');
+@import url('../blocks/places/__altai/__text/places__altai__text.css');
+@import url('../blocks/places/__altai/__text/__par-1/places__altai__text__par-1.css');
+@import url('../blocks/places/__altai/__text/__par-2/places__altai__text__par-2.css');
+
+@import url('../blocks/places/__baikal/places__baikal.css');
+@import url('../blocks/places/__baikal/__title/places__baikal__title.css');
+@import url('../blocks/places/__baikal/__website/places__baikal__website.css');
+@import url('../blocks/places/__baikal/__website/__URL/places__baikal__website__URL.css');
+@import url('../blocks/places/__baikal/__website/__link/places__baikal__website__link.css');
+@import url('../blocks/places/__baikal/__image/places__baikal__image.css');
+@import url('../blocks/places/__baikal/__text/places__baikal__text.css');
+@import url('../blocks/places/__baikal/__text/__par-1/places__baikal__text__par-1.css');
+@import url('../blocks/places/__baikal/__text/__par-2/places__baikal__text__par-2.css');
+
+@import url('../blocks/places/__karelia/places__karelia.css');
+@import url('../blocks/places/__karelia/__title/places__karelia__title.css');
+@import url('../blocks/places/__karelia/__website/places__karelia__website.css');
+@import url('../blocks/places/__karelia/__website/__URL/places__karelia__website__URL.css');
+@import url('../blocks/places/__karelia/__website/__link/places__karelia__website__link.css');
+@import url('../blocks/places/__karelia/__image/places__karelia__image.css');
+@import url('../blocks/places/__karelia/__text/places__karelia__text.css');
+
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__overlay/cover__overlay.css');
+@import url('../blocks/cover/__image/cover__image.css');
+@import url('../blocks/cover/__text/cover__text.css');
+@import url('../blocks/cover/__text/__title/cover__title.css');
+@import url('../blocks/cover/__text/__subtitle/cover__subtitle.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__maps/footer__maps.css');
+@import url('../blocks/footer/__weather/footer__weather.css');
+@import url('../blocks/footer/__schedule/footer__schedule.css');
+@import url('../blocks/footer/__calendar/footer__calendar.css');
+@import url('../blocks/footer/__trips/footer__trips.css');
+@import url('../blocks/footer/__signature/footer__signature.css');

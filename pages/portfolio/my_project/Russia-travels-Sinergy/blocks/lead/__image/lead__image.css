@@ -1,0 +1,7 @@
+.lead__image {
+    width: 984px;
+    height: 615px;
+    flex-shrink: 0;
+    background-image: url('../../../img/lead/image.png');
+
+}

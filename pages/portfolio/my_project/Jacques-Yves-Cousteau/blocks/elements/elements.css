@@ -1,0 +1,26 @@
+.elements {
+    width: 880px;
+    margin: 51px auto 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 20px;
+    column-gap: 17px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+    .elements {
+        width: 282px;
+        margin: 36px auto 0;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+}

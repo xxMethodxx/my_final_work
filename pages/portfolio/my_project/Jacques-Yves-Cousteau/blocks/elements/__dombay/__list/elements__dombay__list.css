@@ -1,0 +1,14 @@
+.elements__dombay__list {
+    width: 282px;
+    height: 23px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto 31px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.elements__dombay__text {
+    height: 23px;
+}

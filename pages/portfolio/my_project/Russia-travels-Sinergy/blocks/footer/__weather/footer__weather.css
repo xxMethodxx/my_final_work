@@ -1,0 +1,10 @@
+.footer__weather {
+    width: 57px;
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+}

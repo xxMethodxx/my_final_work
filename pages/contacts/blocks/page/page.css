@@ -1,0 +1,24 @@
+.page {
+    /* background-color: #2A2C2F; */
+    /* background-color: red; */
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+*{
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+@media (max-width: 640px) {
+    .page.noscroll {
+        overflow: hidden;
+    }
+}

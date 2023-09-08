@@ -1,0 +1,9 @@
+.places__altai {
+    width: 984px;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Inter;
+    column-gap: 40px;
+    row-gap: 48px;
+}

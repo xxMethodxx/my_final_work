@@ -1,0 +1,10 @@
+.places__baikal {
+    width: 984px;
+    flex-shrink: 0;
+    font-family: Inter;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+}

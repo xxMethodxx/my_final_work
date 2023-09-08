@@ -1,0 +1,8 @@
+.places__scythe__website {
+    width: 456px;
+    flex-shrink: 0;
+    text-align: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

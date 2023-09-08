@@ -1,0 +1,10 @@
+.places__scythe__title {
+    width: 460px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+}

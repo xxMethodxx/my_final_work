@@ -1,0 +1,24 @@
+.page {
+    width: 1280px;
+    min-width: 320px;
+ }
+
+.body_content {
+    background-color: #2A2C2F;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../../../../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

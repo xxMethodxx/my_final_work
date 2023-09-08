@@ -1,0 +1,40 @@
+.burger {
+    display: none;
+    margin-left: 20px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50px;
+    height: 100%;
+}
+
+.burger-field {
+    width: 50px;
+    height: 7px;
+    background-color: white;
+}
+
+@media (max-width: 640px) {
+    .burger {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .burger.active .burger-field:nth-child(1) {
+        transform: translateY(16px) translateX(-5px) rotate(45deg);
+        transition: 0.5s;
+    }
+
+    .burger.active .burger-field:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active .burger-field:nth-child(3) {
+        transform: translateY(-18px) translateX(-5px) rotate(-45deg);
+        transition: 0.5s;
+    }
+}

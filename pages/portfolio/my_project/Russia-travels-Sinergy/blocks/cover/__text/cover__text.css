@@ -1,0 +1,10 @@
+.cover__text {
+position: absolute;
+top: 245px;
+left: 312px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 100%;
+}

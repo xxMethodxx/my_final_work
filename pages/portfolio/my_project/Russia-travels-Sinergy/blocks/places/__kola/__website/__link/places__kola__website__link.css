@@ -1,0 +1,12 @@
+.places__kola__website__link {
+    width: 456px;
+    flex-shrink: 0;
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-top: 12px;
+}

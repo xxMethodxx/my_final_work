@@ -1,0 +1,7 @@
+.places {
+    width: 984px;
+    flex-shrink: 0;
+    margin: 92px auto 0 auto;
+    display: grid;
+    gap: 80px;    
+}

@@ -1,0 +1,20 @@
+.main__pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.main__pagination div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffa50070;
+}
+
+.main__pagination:hover {
+    cursor: pointer;
+}

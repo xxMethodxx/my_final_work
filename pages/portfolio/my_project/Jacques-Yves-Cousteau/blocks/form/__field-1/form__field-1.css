@@ -1,0 +1,32 @@
+.form__field-1 {
+    width: 358px;
+    height: 27px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 54px auto 0;
+    border-bottom: 1px black solid;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+    .form__field-1 {
+        width: 238px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 75px auto 0;
+        outline: none;
+    }
+}
