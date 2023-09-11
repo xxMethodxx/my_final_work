@@ -10,15 +10,10 @@
     align-items: center;
 }
 
-.footer p,
-svg {
+.footer>p {
     padding-top: 10px;
 }
 
-.footer svg {
-    cursor: pointer;
-}
-
-.footer a {
+.footer>div>a {
     text-decoration: none;
 }

@@ -10,8 +10,3 @@ burger.onclick = function () {
     body.classList.toggle('noscroll');
     popup.appendChild(hambMenu);
 }
-
-// let p_p = document.querySelectorAll ('.main__item p');
-// console.log(p_p.length);
-// console.log (p_p);
-// p_p[1].classList.add('third-p');

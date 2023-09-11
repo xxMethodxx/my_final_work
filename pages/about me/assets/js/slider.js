@@ -1,4 +1,5 @@
 let slider = document.querySelectorAll('.slider__line img');
+let sliderWidth = document.querySelector('.main__photo').offsetWidth;
 let sliderLine = document.querySelector('.slider__line');
 let prevBtn = document.querySelector('.prev');
 let nextBtn = document.querySelector('.next');
@@ -21,7 +22,7 @@ prevBtn.addEventListener('click', function () {
         i = slider.length - 1;
     }
     // slider[i].style.display = 'block';
-    sliderLine.style.transform = `translateX(${-(i) * 500}px)`;
+    sliderLine.style.transform = `translateX(${-(i) * (sliderWidth)}px)`;
     paginations[i].style.backgroundColor = '#0ed80e';
     text[i].style.display = 'block';
 });
@@ -34,8 +35,7 @@ nextBtn.addEventListener('click', function () {
     if (i >= slider.length) {
         i = 0;
     }
-    sliderLine.style.transform = `translateX(${-(i) * 500}px)`;
-    console.log(i);
+    sliderLine.style.transform = `translateX(${-(i) * sliderWidth}px)`;
     // slider[i].style.display = 'block';
     paginations[i].style.backgroundColor = '#0ed80e';
     text[i].style.display = 'block';

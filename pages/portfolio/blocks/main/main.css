@@ -1,11 +1,6 @@
-/* .main {
-
-} */
-
 .main__title {
     /* margin: 40px auto; */
     margin-top: calc(15px + 25*(100vw/1920));
-
     display: flex;
     justify-content: center;
     text-align: center;
@@ -67,4 +62,75 @@
 .main__item>li:hover {
     box-shadow: 0px 0px 20px 15px #5f4b46;
     transition: 0.3s;
+}
+
+
+.accordeon {
+    width: 100%;
+    margin: 40px auto 0;
+    /* border: 1px solid black; */
+    background-color: #cccdd1;
+
+}
+
+.accordeon-title {
+    width: 100%;
+    position: relative;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.accordeon-content {
+    /* font-size: 20px; */
+    max-height: 0;
+    /* opacity: 0; */
+    overflow: hidden;
+    /* visibility: hidden; */
+    box-sizing: content-box;
+    width: 100%;
+    /* padding: 10px 0; */
+    border: 1px solid black;
+    border-top: none;
+    transition: max-height 0.5s ease-out, opacity 0.1s ease-out 0.5s, visibility 0.1s ease-out 0.5s;
+}
+
+.accordeon-content.visible {
+    transition: max-height 0.5s ease-out;
+    /* max-height: 100%; */
+    opacity: 1;
+    visibility: visible;
+}
+
+.accordeon-btn {
+    position: absolute;
+    top: 20%;
+    left: 1%;    
+    width: calc(5px + 35*(100vw/1920));
+    height: calc(5px + 35*(100vw/1920));
+    cursor: pointer;
+    transform: rotate(0);
+    transition: 0.5s;
+}
+
+
+
+.accordeon-btn.active {
+    content: "";
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+.accordeon-btn-field {
+    width: calc(5px + 35*(100vw/1920));
+    height: calc(2px + 8*(100vw/1920));
+    background-color: white;
+}
+
+.accordeon-btn-field:nth-child(1) {
+    transform: translateY(calc(2px + 8*(100vw/1920)));
+}
+
+.accordeon-btn-field:nth-child(2) {
+    transform: translateY(0) rotate(90deg);
+
 }
